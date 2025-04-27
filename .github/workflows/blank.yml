@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FashionVerse</title>
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <style>
+    body { font-family: 'Poppins', sans-serif; margin: 0; padding: 0; background-color: #f9f9f9; color: #333; }
+    header { background: linear-gradient(to right, #000, #333); color: white; padding: 50px 20px; text-align: center; }
+    section { padding: 60px 20px; border-bottom: 1px solid #ddd; text-align: center; }
+    section video, section img { width: 80%; max-width: 600px; height: auto; margin-top: 30px; border-radius: 15px; box-shadow: 0px 8px 20px rgba(0,0,0,0.15); }
+    .download-link { display: inline-block; margin-top: 15px; background-color: #000; color: #fff; padding: 10px 20px; border-radius: 8px; text-decoration: none; font-size: 16px; }
+    h2 { font-size: 36px; margin-top: 20px; color: #111; }
+    p { font-size: 20px; max-width: 700px; margin: 20px auto; }
+  </style>
+</head>
+<body>
+<header data-aos="fade-down">
+  <h1>Welcome to FashionVerse</h1>
+  <p>Dive into the world of styles.</p>
+</header>
+
+<section id="streetwear" data-aos="fade-up">
+  <h2>Streetwear</h2>
+  <p>Streetwear is all about looking cool without trying too hard. Hoodies, sneakers, baggy pants — it’s the art of being comfy and fresh at the same time.</p>
+  <video controls src="https://videos.pexels.com/video-files/8028138/8028138-uhd_2560_1440_25fps.mp4"></video><br>
+
+  <a class="download-link" href="https://videos.pexels.com/video-files/8028138/8028138-uhd_2560_1440_25fps.mp4" download>Download Video</a>
+ </section>
+
+<section id="haute-couture" data-aos="fade-right">
+  <h2>Haute Couture</h2>
+  <p>Haute Couture is next-level fashion. Think custom-made, crazy-detailed, super luxurious clothes. It’s not just wearing art — it’s becoming art.</p>
+  <video controls src="https://videos.pexels.com/video-files/6474633/6474633-uhd_2732_1440_25fps.mp4"></video><br><br>
+  <a class="download-link" href="https://videos.pexels.com/video-files/6474633/6474633-uhd_2732_1440_25fps.mp4" download>Download Video</a>
+  
+</section>
+
+<section id="casual" data-aos="fade-left">
+  <h2>Casual</h2>
+  <p>Casual style is all about keeping it easy and breezy. T-shirts, jeans, sneakers — simple pieces that make you feel good and ready for anything.</p>
+  <video controls src="https://videos.pexels.com/video-files/4265204/4265204-uhd_2560_1440_30fps.mp4"></video><br>
+  <a class="download-link" href="https://videos.pexels.com/video-files/4265204/4265204-uhd_2560_1440_30fps.mp4" download>Download Video</a>
+  
+</section>
+
+<section id="vintage" data-aos="zoom-in">
+  <h2>Vintage</h2>
+  <p>Vintage is where the magic of the past meets today. Retro jackets, old-school jeans, classic prints — it’s about keeping history alive, with style!</p>
+  <video controls src="https://videos.pexels.com/video-files/10650782/10650782-uhd_2732_1440_25fps.mp4"></video><br>
+  <a class="download-link" href="https://videos.pexels.com/video-files/10650782/10650782-uhd_2732_1440_25fps.mp4" download>Download Video</a>
+  
+</section>
+
+<section id="boho" data-aos="fade-up">
+  <h2>Boho</h2>
+  <p>Boho is wild and free — like a never-ending summer festival. Flowy dresses, earthy colors, layered jewelry. It’s a whole vibe of love, art, and adventure.</p>
+  <video controls src="https://videos.pexels.com/video-files/7866332/7866332-uhd_2560_1440_25fps.mp4"></video><br>
+  <a class="download-link" href="https://videos.pexels.com/video-files/7866332/7866332-uhd_2560_1440_25fps.mp4" download>Download Video</a>
+  
+</section>
+
+<section id="minimalist" data-aos="fade-right">
+  <h2>Minimalist</h2>
+  <p>Minimalist style screams “less is more.” Clean lines, simple colors, powerful vibes. It’s about making big statements in small ways.</p>
+  <video controls src="https://videos.pexels.com/video-files/10677382/10677382-uhd_2732_1440_25fps.mp4"></video><br>
+  <a class="download-link" href="https://videos.pexels.com/video-files/10677382/10677382-uhd_2732_1440_25fps.mp4" download>Download Video</a>
+ 
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script> AOS.init(); </script>
+</body>
+</html>
+
